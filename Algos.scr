@@ -1,0 +1,181 @@
+Script started on Fri Jul 26 23:47:32 2019
+[?1034hbash-3.2$ date
+Fri Jul 26 23:47:37 PDT 2019
+bash-3.2$ ls -l
+total 48
+-rw-r--r--  1 matinghaffari  staff    183 Jul 26 23:32 Makefile
+-rw-r--r--  1 matinghaffari  staff  13788 Jul 26 23:45 hwEC.cpp
+-rw-r--r--  1 matinghaffari  staff     43 Jul 26 23:47 hwec.scr
+bash-3.2$ make all
+g++ -std=c++14 -Wall -g hwEC.cpp -o hwEC
+bash-3.2$ ls -l
+total 144
+-rw-r--r--  1 matinghaffari  staff    183 Jul 26 23:32 Makefile
+-rwxr-xr-x  1 matinghaffari  staff  48928 Jul 26 23:47 hwEC
+-rw-r--r--  1 matinghaffari  staff  13788 Jul 26 23:45 hwEC.cpp
+drwxr-xr-x  3 matinghaffari  staff     96 Jul 26 23:47 hwEC.dSYM
+-rw-r--r--  1 matinghaffari  staff     43 Jul 26 23:47 hwec.scr
+bash-3.2$ ./hwec
+
+************************************** 
+*       Running HW Extra Credit      * 
+*   Programmed by Matin Ghaffari     * 
+*  CS1C 7/26/19 MTWTh: 3:00 - 5:20   * 
+************************************** 
+
+----------------------------------------------------
+           *** Setting The Initial Lists ***
+----------------------------------------------------
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+List 2: 100 99  98  97  96  95  94  93  92  91  ...10  9   8   7   6   5   4   3   2   1   
+List 3: 93  46  98  9   63  49  44  76  35  26  ...88  38  53  52  37  67  50  31  47  94  
+
+----------------------------------------------------
+              *** BUBBLE SORT ***  
+----------------------------------------------------
+
+It took 19828 nanoseconds to Bubble sort.
+Comparisons: 4950
+Assignments: 0
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 52047 nanoseconds to Bubble sort.
+Comparisons: 4950
+Assignments: 14850
+List 2: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 53821 nanoseconds to Bubble sort.
+Comparisons: 4950
+Assignments: 7557
+List 3: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+----------------------------------------------------
+*** Resetting to Initial List configuration ***
+----------------------------------------------------
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+List 2: 100 99  98  97  96  95  94  93  92  91  ...10  9   8   7   6   5   4   3   2   1   
+List 3: 11  38  77  7   95  27  46  65  19  39  ...90  81  49  24  71  4   1   51  84  47  
+
+----------------------------------------------------
+               *** Insertion Sort ***
+----------------------------------------------------
+
+It took 588 nanoseconds to insertion sort
+Comparisons: 99
+Assignments: 0
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 29044 nanoseconds to insertion sort
+Comparisons: 5049
+Assignments: 5148
+List 2: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 15473 nanoseconds to insertion sort
+Comparisons: 2569
+Assignments: 2654
+List 3: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+----------------------------------------------------
+*** Resetting to Initial List configuration ***
+----------------------------------------------------
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+List 2: 100 99  98  97  96  95  94  93  92  91  ...10  9   8   7   6   5   4   3   2   1   
+List 3: 49  94  17  59  73  22  27  1   29  14  ...37  60  52  28  89  42  44  25  55  69  
+
+----------------------------------------------------
+              *** Selection Sort ***
+----------------------------------------------------
+
+It took 21029 nanoseconds to selection sort
+Comparisons: 4950
+Assignments: 297
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 23376 nanoseconds to selection sort
+Comparisons: 4950
+Assignments: 2797
+List 2: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 27421 nanoseconds to selection sort
+Comparisons: 4950
+Assignments: 630
+List 3: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+----------------------------------------------------
+*** Resetting to Initial List configuration ***
+----------------------------------------------------
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+List 2: 100 99  98  97  96  95  94  93  92  91  ...10  9   8   7   6   5   4   3   2   1   
+List 3: 24  61  76  20  18  17  93  86  72  16  ...70  47  50  28  19  46  56  57  8   27  
+
+----------------------------------------------------
+               *** Quick Sort ***
+----------------------------------------------------
+
+It took 36988 nanoseconds to quick sort
+Comparisons: 9900
+Assignments: 5580
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 28921 nanoseconds to quick sort
+Comparisons: 14850
+Assignments: 8030
+List 2: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 12316 nanoseconds to quick sort
+Comparisons: 15674
+Assignments: 8601
+List 3: 24  61  76  61  76  76  93  93  93  93  ...97  97  93  94  96  97  98  100 99  100 
+
+----------------------------------------------------
+*** Resetting to Initial List configuration ***
+----------------------------------------------------
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+List 2: 100 99  98  97  96  95  94  93  92  91  ...10  9   8   7   6   5   4   3   2   1   
+List 3: 73  95  64  94  54  30  58  51  60  18  ...14  40  11  98  76  35  42  74  68  3   
+
+----------------------------------------------------
+               *** Merge Sort ***
+----------------------------------------------------
+
+It took 12366 nanoseconds to merge sort.
+Comparisons: 100
+Assignments: 100
+List 1: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 11699 nanoseconds to merge sort.
+Comparisons: 100
+Assignments: 100
+List 2: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+
+
+It took 18067 nanoseconds to merge sort.
+Comparisons: 100
+Assignments: 100
+List 3: 1   2   3   4   5   6   7   8   9   10  ...91  92  93  94  95  96  97  98  99  100 
+
+--------------------------------------------------------------------------------------------
+
+bash-3.2$ exit
+exit
+
+Script done on Fri Jul 26 23:48:03 2019
